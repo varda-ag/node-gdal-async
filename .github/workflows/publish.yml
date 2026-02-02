@@ -6,10 +6,11 @@ jobs:
 
   publish-linux-old:
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.platform }}
 
     strategy:
       matrix:
+        platform: [ ubuntu-latest, ubuntu-24.04-arm ]
         node-version: [ 20, 22, 24 ]
 
     steps:
@@ -25,10 +26,11 @@ jobs:
 
   publish-linux-new:
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.platform }}
 
     strategy:
       matrix:
+        platform: [ ubuntu-latest, ubuntu-24.04-arm ]
         node-version: [ 25 ]
 
     steps:

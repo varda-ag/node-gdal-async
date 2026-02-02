@@ -3,7 +3,7 @@
   "version": "3.12.1",
   "description": "Bindings to GDAL (Geospatial Data Abstraction Library) with full async support",
   "license": "Apache-2.0",
-  "url": "https://github.com/mmomtchev/node-gdal-async",
+  "url": "https://github.com/varda-ag/node-gdal-async",
   "main": "./lib/gdal.js",
   "types": "./lib/index.d.ts",
   "type": "commonjs",
@@ -26,16 +26,16 @@
     "module_name": "gdal",
     "module_path": "./lib/binding/{node_abi}-{platform}-{arch}",
     "remote_path": "v{version}",
-    "host": "https://github.com/mmomtchev/node-gdal-async/releases/download/",
+    "host": "https://github.com/varda-ag/node-gdal-async/releases/download/",
     "package_name": "{node_abi}-{platform}-{arch}.tar.gz",
     "hosting": {
       "provider": "github",
-      "repo": "mmomtchev/node-gdal-async"
+      "repo": "varda-ag/node-gdal-async"
     }
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmomtchev/node-gdal-async.git"
+    "url": "https://github.com/varda-ag/node-gdal-async.git"
   },
   "funding": {
     "url": "https://github.com/sponsors/mmomtchev",
